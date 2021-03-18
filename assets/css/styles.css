@@ -1,0 +1,119 @@
+/* reset css start */
+
+
+
+/* reset css end */
+
+
+/*  Css Contact Top start */
+
+    .section_contact_top i::before {
+        line-height: inherit;
+        font-size: 26px;
+    }
+
+    .img_contact_top {
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        background-color: #de0025;
+        color: #fff;
+        border-radius: 50%;
+        margin-right: 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title_c_top {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .content_contact_top span {
+        font-size: 14px;
+        color: #9B9B9B;
+    }
+
+    .contact_about_top {
+        background-color: #de0025;
+        color: #fff;
+        padding: 15px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        overflow: hidden;
+        z-index: 9999;
+    }
+
+    .contact_about_top::after {
+        position: absolute;
+        top: 76px;
+        left: -41px;
+        content: '';
+        background-color: #FDB819;
+        width: 100%;
+        height: 40px;
+        opacity: 0.4;
+        transform: rotate(-45deg);
+    }
+
+    .contact_about_top::before {
+        position: absolute;
+        top: 99px;
+        left: 14px;
+        content: '';
+        background-color: #FDB819;
+        width: 100%;
+        height: 40px;
+        opacity: 0.4;
+        transform: rotate(-45deg);
+    }
+    .contact_about_top p {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .contact_about_top span {
+        font-size: 14px;
+    }
+
+    .contact_about_top a {
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact_about_top p,
+    .contact_about_top span,
+    .contact_about_top a {
+        position: relative;
+        z-index: 999;
+    }
+
+    .contact_about_top a:hover {
+        text-decoration: none;
+    }
+
+    .contact_about_top i {
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        padding: 1px;
+        border-radius: 50%;
+        color: #de0025;
+        font-size: 65%;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .btn__link {
+        background-color: transparent;
+        border-color: transparent;
+        min-width: 0;
+        line-height: 1;
+        height: auto;
+        padding: 0;
+        border: none;
+    }
+
+/*  Css Contact Top end */
