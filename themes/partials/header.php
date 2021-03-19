@@ -9,7 +9,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="<?= BASE_URL ?>/assets/vendor/css/bootstrap.css">
-  <link rel="stylesheet" href="<?= BASE_URL ?>/assets/vendor/css/flaticon.css">
+  <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/flaticon.css">
   <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/styles.css">
 </head>
 

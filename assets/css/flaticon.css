@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../vendor/fonts/flaticon.ttf?cb95cc857e71f1c32d723169b23332bc") format("truetype"),
+url("../vendor/fonts/flaticon.woff?cb95cc857e71f1c32d723169b23332bc") format("woff"),
+url("../vendor/fonts/flaticon.woff2?cb95cc857e71f1c32d723169b23332bc") format("woff2"),
+url("../vendor/fonts/flaticon.eot?cb95cc857e71f1c32d723169b23332bc#iefix") format("embedded-opentype"),
+url("../vendor/fonts/flaticon.svg?cb95cc857e71f1c32d723169b23332bc#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal ;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-author-sign:before {
+    content: "\f101";
+}
+.flaticon-calendar:before {
+    content: "\f102";
+}
+.flaticon-domain:before {
+    content: "\f103";
+}
+.flaticon-email-1:before {
+    content: "\f104";
+}
+.flaticon-location:before {
+    content: "\f105";
+}
+.flaticon-phone-ringing:before {
+    content: "\f106";
+}
+.flaticon-right-arrow:before {
+    content: "\f107";
+}
+.flaticon-right-long-black-arrow:before {
+    content: "\f108";
+}
